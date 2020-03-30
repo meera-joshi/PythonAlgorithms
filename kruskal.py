@@ -4,7 +4,7 @@ def root(a, id):
 		a=id[a]
 	return a
 
-def sort3(val):
+def sort3(val):          #sort the edge list according to weight
 	return val[2]
 
 def kruskal(edges, vertices):
